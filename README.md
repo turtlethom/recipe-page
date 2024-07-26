@@ -110,6 +110,7 @@ Personally, I'd love to work on these concepts more:
 - Understand when to utilize CSS `LOCAL` variables.
 - Creating more useful CSS utility classes.
 - Avoid colliding styles (know more about CSS Specificity)
+- Learn how to make websites accessible for ALL patrons (aria attributes)
 
 ### Useful resources & inspirations
 
