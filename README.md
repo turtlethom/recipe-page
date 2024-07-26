@@ -117,7 +117,8 @@ Personally, I'd love to work on these concepts more:
 - [Kevin Powell](https://www.youtube.com/@KevinPowell) - By far, Kevin is the **BEST** teacher I've found when learning about the fundamentals of CSS. When it comes to simple CSS principles to more advanced techniques in web design, Kevin is the undisputed GOAT!
 
 ## Author
-
-- Website - [Add your name here](https://www.your-site.com)
 - Frontend Mentor - [@turtlethom](https://www.frontendmentor.io/profile/turtlethom)
 - Twitter - [@wjamesthomas3](https://x.com/wjamesthomas3)
+- Email - wjamesthomas3@gmail.com
+
+# ANY CONSTRUCTIVE FEEDBACK IS WELCOMED AND APPRECIATED!
