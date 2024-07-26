@@ -5,7 +5,6 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
@@ -14,10 +13,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
+
+The objective was to build out this recipe page about an omelette that is responsive for different browsers as well as for mobile devices.
+- Ultimately, this was an exercise on my part to demonstrate and strenthen my own knowledge of vanilla HTML and CSS.
 
 ### Screenshot
 
@@ -28,8 +29,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site/Solution URL: [https://turtlethom.github.io/recipe-page/](https://turtlethom.github.io/recipe-page/)
 
 ## My process
 
@@ -43,6 +43,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## What I learned
 
 ### Tables And Its Child Elements
+
 ```html
 <table>
   <tr class="nutrition-item">
@@ -55,6 +56,7 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
   ...
   </table>
 ```
+
 ```css
 .nutrition-item td {
     padding: 1rem;
@@ -80,6 +82,7 @@ I also discovered I had to create a custom `<hr>` style in order for it to be sh
 - There could be a better way of putting the dividers between rows, but this was my solution.
 
 ### Learned About `:not()` Operator
+
 ```css
 .container > *:not(:first-child) {
   color: var(--stone-600-color);
@@ -108,7 +111,7 @@ Personally, I'd love to work on these concepts more:
 - Creating more useful CSS utility classes.
 - Avoid colliding styles (know more about CSS Specificity)
 
-### Useful resources
+### Useful resources & inspirations
 
 - [Axiomatic CSS and Lobotomized Owls](https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/) - This helped me understand the owl operator and why it's useful. I will definitely be using this more and recommend others to learn more about it.
 - [Kevin Powell](https://www.youtube.com/@KevinPowell) - By far, Kevin is the **BEST** teacher I've found when learning about the fundamentals of CSS. When it comes to simple CSS principles to more advanced techniques in web design, Kevin is the undisputed GOAT!
