@@ -40,12 +40,46 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 - CSS Functions (clamp, min, max...)
 - CSS Grid
 
-### What I learned
+## What I learned
 
+### Tables And Its Child Elements
 ```html
-
+<table>
+  <tr class="nutrition-item">
+    <td>Calories</td>
+    <td>277kcal</td>
+  </tr>
+  <tr class="row-divider">
+    <td colspan="2" class="custom-hr"></td>
+  </tr>
+  ...
+  </table>
 ```
-### Discovered New Pseudo Selector
+```css
+.nutrition-item td {
+    padding: 1rem;
+}
+
+.nutrition-item td:last-child {
+    color: var(--brown-800-color);
+    font-weight: 700;
+}
+
+.custom-hr {
+    border-top: 1px solid var(--stone-150-color);
+}
+```
+
+I have never used a table within HTML before and it was eye-opening to learn what the `<tr>` and `<td>` elements could do as well as how they can be styled.
+
+I would now use tables because:
+- Similar to grid
+- Better than just using a bunch of non-semantic `<div>`'s
+
+I also discovered I had to create a custom `<hr>` style in order for it to be shown within the table.
+- There could be a better way of putting the dividers between rows, but this was my solution.
+
+### Learned About `:not()` Operator
 ```css
 .container > *:not(:first-child) {
   color: var(--stone-600-color);
