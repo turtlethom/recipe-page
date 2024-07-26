@@ -88,11 +88,11 @@ main {
 
 h1 { 
     font-size: clamp(2rem, 5.5vw, 3rem); 
-    /* font-weight: 400; */
+    font-weight: 400;
 }
 h2 { 
     font-size: clamp(0.75rem, 5.5vw + 0.5rem, 2.5rem); 
-    /* font-weight: 400; */
+    font-weight: 400;
 }
 
 p { 
