@@ -28,8 +28,8 @@ The objective was to build out this recipe page about an omelette that is respon
 ![](/assets/screenshots/recipepage-mobile.png)
 
 ### Links
-
-- Live Site/Solution URL: [https://turtlethom.github.io/recipe-page/](https://turtlethom.github.io/recipe-page/)
+- Solution URL: [https://github.com/turtlethom/recipe-page](https://github.com/turtlethom/recipe-page)
+- Live Site URL: [https://turtlethom.github.io/recipe-page/](https://turtlethom.github.io/recipe-page/)
 
 ## My process
 
